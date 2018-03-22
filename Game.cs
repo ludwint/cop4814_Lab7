@@ -21,7 +21,9 @@ namespace Lab2Game
         {
 
         }
+        //step 11
         public Game(string Team1, string Team2, int Team1Score, int Team2Score)
+        
         {
             this.Team1 = Team1;
             this.Team2 = Team2;
