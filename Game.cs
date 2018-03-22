@@ -14,7 +14,7 @@ namespace Lab2Game
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
         public int Team2Score { get; set; }
-
+        //modified in branch
         public Game()
         {
 
