@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace Lab2Game
 {
     public class Game
     {
+        //modified Step7
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
