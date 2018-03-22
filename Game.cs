@@ -1,4 +1,5 @@
 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace Lab2Game
     public class Game
     {
         //modified Step7
+        //modified in master
         public string Team1 { get; set; }
         public string Team2 { get; set; }
         public int Team1Score { get; set; }
@@ -19,9 +21,14 @@ namespace Lab2Game
         {
 
         }
+
         
         //step 11 branch_1
+=======
+        //step 11
+
         public Game(string Team1, string Team2, int Team1Score, int Team2Score)
+        
         {
             this.Team1 = Team1;
             this.Team2 = Team2;
